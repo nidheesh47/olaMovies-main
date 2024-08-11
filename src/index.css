@@ -1,0 +1,38 @@
+.cardHeight {
+  height: 100%;
+}
+.textCard {
+  flex-grow: 1;
+}
+.movie-image {
+  width: 100%;
+  height: 400px;
+}
+.background {
+  background-color: #f4f4f4;
+}
+.copyright {
+  font-size: smaller;
+}
+
+.about{
+  border-right: 1px solid #FFFFFF80;
+}
+
+  @media (max-width: 992px) {
+    .about {
+      border-style: none;
+    }
+  }
+  .shadow-border {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+  }
+
+.card:hover{
+  border: 1px solid;
+}
+.card{
+  cursor: pointer;
+}
